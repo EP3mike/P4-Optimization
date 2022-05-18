@@ -689,7 +689,8 @@ a {
 }
 
 p {
-    font-size: 16px;
+    /* font-size: 18px; */
+    font-size: 1.2em;
 }
 
 .tight-width-whitespace {
