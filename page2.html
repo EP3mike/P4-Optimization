@@ -15,11 +15,11 @@
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
     
-	<script src="./js/jquery-2.1.0.js" defer></script>
-	<script src="./js/bootstrap.js" defer></script>
-	<script src="./js/blocs.js" defer></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js" defer></script>
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.js"></script>
+	<script src="./js/gmaps.js"></script>
     <title>Contact</title>
 
     
@@ -81,31 +81,31 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-					<div class="form-group">
+				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!" aria-label="Contact Form">
+					<div class="form-group" aria-label="Name input">
 						<label>
 							Name
 						</label>
 						<input id="name" class="form-control" required />
 					</div>
-					<div class="form-group">
+					<div class="form-group" aria-label="Email input">
 						<label>
 							Email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" class="form-control" type="email" placeholder="username@email.com" pattern="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" required/>
 					</div>
-					<div class="form-group">
+					<div class="form-group" aria-label="Source of discovery label">
 						<label>
 							How did you find me?
 						</label>
 						<input class="form-control" type="email" required id="input_504" />
 					</div>
-					<div class="form-group">
+					<div class="form-group" aria-label="Project brief input">
 						<label>
 							Project brief (Please be as detailed as possible including your company goals and any improvements you&rsquo;d like to have over your current website)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" >
 						Let's go Mike
 					</button>
 				</form>
