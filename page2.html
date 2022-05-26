@@ -86,28 +86,30 @@
 						<label>
 							Name
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" class="form-control" required >
 					</div>
 					<div class="form-group" aria-label="Email input">
 						<label>
 							Email
 						</label>
-						<input id="email" class="form-control" type="email" placeholder="username@email.com" pattern="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" required/>
+						<input class="form-control" placeholder="xxx@email.xxx" name="email" id="email" type="email" pattern="[a-zA-Z0-9!#$%&amp;'*+\/=?^_`{|}~.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*" required>
+		
+						<!-- <input id="email" class="form-control" type="email" placeholder="username@email.com" pattern="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" required > -->
 					</div>
 					<div class="form-group" aria-label="Source of discovery label">
 						<label>
 							How did you find me?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" type="email" required id="input_504" >
 					</div>
 					<div class="form-group" aria-label="Project brief input">
 						<label>
 							Project brief (Please be as detailed as possible including your company goals and any improvements you&rsquo;d like to have over your current website)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" >
-						Let's go Mike
-					</button>
+					<input class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" >
+						<!-- Let's go Mike
+					</input> -->
 				</form>
 			</div>
 			<div class="col-sm-6">
